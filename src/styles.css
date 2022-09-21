@@ -1,0 +1,304 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#Image {
+  opacity: 0.3;
+}
+
+.lnv {
+  text-decoration: none;
+  color: #38756e;
+  text-align: center;
+  list-style: none;
+  margin-left: 20px;
+  line-height: 35px;
+}
+
+.nv {
+  text-decoration: none;
+  word-spacing: 5px;
+  
+}
+.nv :hover {
+  color: black;
+  border-radius: 0px;
+  text-decoration: none;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+  transition: transform 0.7s;
+}
+.main{
+  font-size:30px; font-Style:bold" 
+}
+.temp{
+  color:gray;
+}
+.buttons {
+  background-color: #f2f2f2;
+  border: 1px solid lightgrey;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  padding-inline: 10px;
+  margin-left: 10px;
+  
+  
+}
+.buttons:hover {
+  background-image:linear-gradient(to right,#337069 , #42b9ab);
+  color: white;
+}
+.Personalbuttons {
+  background-image:linear-gradient(to right,#337069 , #42b9ab);;
+  border: 1px solid lightgrey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  padding-inline: 10px;
+  margin-left: 10px;
+  
+  
+}
+.details{
+  background-image: url("https://i.pinimg.com/736x/9a/3d/5c/9a3d5c4a8d3283b4e2b9fa1f53db544d.jpg");
+  width: 100%;
+  background-size:100%;
+
+  
+
+}
+.personal{
+  font-size: 30px;
+  border-bottom: 1px solid;
+  border-color: #94b3af;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+.personaldetails{
+  width: 80%;
+  align: center;
+  
+}
+.left{
+  text-align: right;
+  font-family: "Lucida Console", monospace;
+  width: 49%;
+}
+.right{
+  width: 49%;
+  font-family: "Lucida Console", monospace;
+}
+.rows{
+  border-bottom:1px dotted gray;
+  text-decoration: none;
+  word-spacing: 5px;
+  padding: 50px;
+ /* Animation */
+  margin: 0 auto;
+  font-size: 15px;
+  
+}
+
+.lefts{
+  text-align: right;
+  font-family: "Lucida Console", monospace;
+  width: 49%;
+}
+.edit{
+  background-image:url("https://i.pinimg.com/736x/9a/3d/5c/9a3d5c4a8d3283b4e2b9fa1f53db544d.jpg");
+  background-size:100%;
+  
+}
+.studentlist{
+  background-image:linear-gradient(to right,#c0c0c0 , #ffffff);
+}
+.list:hover{
+  
+    background: #e1e1e1;
+    border-top: 1px solid #d0d0d0;
+
+}
+.mainimage{
+  background-color:rgb(16, 16, 16);
+}
+.containers{
+  position: relative;
+  text-align: center;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  line-height: 30px;
+  
+}
+.webname{
+  font-size: 30px;
+  font-style: italic;
+  
+}
+.dars{
+  font-size: 50px;
+  line-height: 40px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.lorem{
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.listTitleback
+{
+  font-family: cursive;
+  font-size: 50px;
+  vertical-align: center;
+  padding: 100px;
+  color:rgb(0, 0, 0);
+  background-image:url("https://media.istockphoto.com/photos/being-organased-saves-tame-picture-id1341538285?b=1&k=20&m=1341538285&s=170667a&w=0&h=Np1Sns0UAZ2AVVlfZ-jC351lKzkMF0YjN73za_Cbp1E=");
+  background-size:100%;
+  height: 300px;
+}
+.listTitleBlack{
+  background-color:black;
+}
+.two:hover{
+  color: red;
+
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin: 0 1em;
+  }
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-left: 10px;
+  background-color: #38756e;
+  width: 0%;
+  content: "";
+  height: 4px;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  
+  width: 100%;
+  transition: all 0.2s;
+}
+.fil{
+  
+}
+.fil:hover{
+  transform: scale(1.2);
+ 
+  transition: transform 0.5s;
+}
+.fid:hover{
+  color:black;
+  transform: scale(0.90);
+ 
+  transition: transform 0.5s;
+}
+.effect-four{
+  padding: 0 0 4px 0;
+
+  color:black;
+}
+	.effect-four:hover{
+    padding: 0 0 6px 0;
+    border-bottom: 2px solid red;
+    transition: 0.3s ease;
+		color:red
+  }
+.mx-auto{
+  text-align: center;
+  color:black;
+}
+.about{
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+.aboutmain{
+  background-image:url("https://thumbs.gfycat.com/EvenScaryKitfox.webp");
+  background-size:100%;
+  
+}
+.edit_Or_Add{
+  text-align: center;
+}
+.title-word {
+  animation: color-animation 2s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACAFCA;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
